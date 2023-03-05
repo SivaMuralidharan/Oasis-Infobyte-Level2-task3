@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A BASIC TO-DO WEBAPP</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="row">A BASIC TO-DO WEBAPP</h1>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <form class="form-inline col-sm-offset-2">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class='bx bx-chevrons-right'></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="type here!!!" id="box" style="width: 20vw" />
+                            <input type="button" class="btn btn-primary form-control" value="+ add" style="width: 10vw" onclick="add_item()" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                    <ul id="list_item">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
